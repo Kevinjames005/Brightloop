@@ -1,0 +1,61 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+
+# Test / coverage artifacts
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+nosetests.xml
+junit.xml
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+.cache/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini

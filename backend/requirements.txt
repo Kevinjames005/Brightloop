@@ -1,0 +1,12 @@
+fastapi>=0.110.0
+uvicorn>=0.28.0
+supabase>=2.3.0
+pydantic[email]>=2.6.0
+python-dotenv>=1.0.0
+passlib[bcrypt]>=1.7.4
+# passlib 1.7.4 is incompatible with bcrypt >= 4.1 (it reads bcrypt.__about__,
+# removed in 4.1, and bcrypt 5 rejects passlib's backend self-test).
+bcrypt>=4.0,<4.1
+python-jose[cryptography]>=3.3.0
+# Required for the OAuth2 password-form endpoint used by Swagger's Authorize button.
+python-multipart>=0.0.9
